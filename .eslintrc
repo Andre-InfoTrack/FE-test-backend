@@ -1,0 +1,14 @@
+{
+  "extends": ["prettier"],
+  "plugins": ["prettier"],
+  "parser": "babel-eslint",
+  "rules": {
+    "prettier/prettier": ["error"],
+    "import/prefer-default-export": ["off"],
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "import/no-useless-path-segments": "off"
+  },
+  "env": {
+    "browser": true
+  }
+}
